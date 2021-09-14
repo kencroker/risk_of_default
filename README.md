@@ -2397,10 +2397,9 @@ People usually chose to borrow money for one of the following reasons:
 - Paying for housing
 - Paying for a wedding
 
-## Answer these questions
+## Factors Related to Loan Repayments
 
-- Is there a relation between having kids and repaying a loan on time?
-
+### Is there a relation between having kids and repaying a loan on time?
 
 ```python
 df.pivot_table(
@@ -2459,11 +2458,9 @@ df.pivot_table(
 
 The rate of default is 7.5% for borrowers without children, 9.3% for borrowers with one to two children, and 8.6% for borrowers with three or more children.
 
-**Conclusion: From the data, it appears that borrowers without children are more likely to pay back loans on time than people with children.**
+*Conclusion: From the data, it appears that borrowers without children are more likely to pay back loans on time than people with children.*
 
-### Conclusion
-
-- Is there a relation between marital status and repaying a loan on time?
+### Is there a relation between marital status and repaying a loan on time?
 
 Note: The rate of default is the average of the values in the 'debt' column.
 
@@ -2536,13 +2533,11 @@ df.pivot_table(
 
 
 
-**Conclusion: Unmarried borrowers and borrowers in civil partnerships are the least likely to pay back loans on time. Widowed borrowers are the most likely to pay back loans on time.**
+*Conclusion: Unmarried borrowers and borrowers in civil partnerships are the least likely to pay back loans on time. Widowed borrowers are the most likely to pay back loans on time.*
 
-**Married and divored borrowers are more likely than unmarried borrowers but less likely than widowed borrowers to pay back loans on time.**
+*Married and divored borrowers are more likely than unmarried borrowers but less likely than widowed borrowers to pay back loans on time.*
 
-### Conclusion
-
-- Is there a relation between income level and repaying a loan on time?
+### Is there a relation between income level and repaying a loan on time?
 
 
 ```python
@@ -2612,11 +2607,9 @@ For borrowers who make an income of less than 20,000 per year, the rate of defau
 The rate of default steadily declines with increased income.
 For borrowers who make over 50,000 per year, the rate of default is only 6.97%.
 
-**Conclusion: People with higher incomes may be more likely to pay back loans on time.**
+*Conclusion: People with higher incomes may be more likely to pay back loans on time.*
 
-### Conclusion
-
-- How do different loan purposes affect on-time repayment of the loan?
+### How do different loan purposes affect on-time repayment of the loan?
 
 For most borrowers, the probability of defaulting on a loan is somewhere between 7% and 8%. But for borrowers who wish to buy a car or pay for higher education, the probability of defaulting rises above 9%. 
 
@@ -2692,7 +2685,7 @@ df.pivot_table(
 
 
 
-**Conclusion: Borrowers who loan money to buy a car or pay for education _may_ be less likely than other borrowers to repay their loans on time.**
+*Conclusion: Borrowers who loan money to buy a car or pay for education _may_ be less likely than other borrowers to repay their loans on time.*
 
 ## General conclusion
 
